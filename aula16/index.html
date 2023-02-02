@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- JS Bootstrap -->
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js" defer></script>
+    <style>
+        div.border {
+            height: 150px;
+        }
+    </style>
+    <title>Configurações de Visibilidade</title>
+</head>
+<body>
+    <header class="p-3 text-bg-dark d-print-none">
+        <div class="container">
+            <h1 class="display-1">Cabeçalho</h1>
+        </div>
+    </header>
+    <article class="container my-3">
+        <h1 class="mb-4">Título do Artigo</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit neque quos corporis sapiente iste libero reprehenderit officia optio, quisquam, voluptas quas quibusdam nihil et sunt praesentium voluptatum totam nam porro.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem velit at harum tempore esse illo dolores maiores officia commodi sequi? Et consequuntur mollitia ea doloribus, corporis sapiente deleniti omnis quas?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ab deserunt quidem obcaecati. Consequatur accusamus adipisci, eos, recusandae voluptatibus nulla veritatis quos quod accusantium, maxime nam distinctio quisquam? Repellendus, repellat!</p>
+        <p class="d-none d-print-block">fonte: meusite.com.br</p>
+    </article>
+    <hr>
+    <div class="p-5 bg-danger"></div>
+    <div class="p-4 col-3 d-inline m-3 bg-primary"></div>
+    <div class="p-4 col-3 d-inline m-3 bg-success"></div>
+    <div class="p-4 col-3 d-inline m-3 bg-warning"></div>
+    <hr>
+    <div class="p-4 col-3 d-inline-block m-3 bg-primary"></div>
+    <div class="p-4 col-3 d-inline-block m-3 bg-success"></div>
+    <div class="p-4 col-3 d-inline-block m-3 bg-warning"></div>
+    <hr>
+    <div class="p-4 col-3 d-none d-lg-block m-3 bg-primary"></div>
+    <div class="p-4 col-3 d-inline d-lg-none m-3 bg-success"></div>
+    <div class="p-4 col-3 d-inline m-3 bg-warning"></div>
+    <hr>
+    <div class="p-4 col-3 m-3 bg-primary"></div>
+    <div class="p-4 col-3 m-3 bg-success invisible"></div>
+    <div class="p-4 col-3 m-3 bg-warning"></div>
+    <hr>
+    <div class="container bg-info mt-3">
+        <div class="row">
+            <div class="border p-2 col-3 overflow-auto">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque impedit dignissimos non debitis expedita, tenetur quisquam architecto cupiditate totam doloribus dolores aliquam, dicta, asperiores fuga aut ipsa earum? Ipsa, magnam!
+            </div>
+            <div class="border p-2 col-3 overflow-hidden">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil quibusdam dicta facere aspernatur tenetur! Tempora earum impedit aspernatur accusamus voluptatum, eligendi, nesciunt laudantium, sunt deserunt autem iusto excepturi? Ad, minima?
+            </div>
+            <div class="border p-2 col-3 overflow-visible">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis totam, quisquam sit, rem, dolores dolore nemo ipsum expedita doloremque voluptates tenetur at aliquid fugit! Ratione alias aperiam culpa delectus fuga.
+            </div>
+            <div class="border p-2 col-3 overflow-scroll">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt architecto expedita laborum nam laudantium iusto odit magnam quas voluptatibus temporibus deserunt accusantium enim, earum ipsam officiis animi maxime quasi illo.
+            </div>
+        </div>
+    </div>
+</body>
+</html>
