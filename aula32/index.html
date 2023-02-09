@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- JS Bootstrap -->
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <title>Componentes Simples</title>
+</head>
+<body>
+    <div class="container my-5">
+        <!-- indicador de caminho (breadcrumbs) -->
+        <nav class="breadcrumb" style="--bs-breadcrumb-divider: ' : : '">
+            <li class="breadcrumb-item">
+                <a href="#">Área Restrita</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a href="#">Perfil</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a href="#">Segurança</a>
+            </li>
+        </nav>
+        <hr>
+        <!-- indicador de carregamento (spinner) -->
+        <div class="spinner-border text-info"></div>
+        <div class="spinner-border spinner-border-sm text-dark"></div>
+        <div class="spinner-grow text-success"></div>
+        <div class="spinner-grow text-warning" style="width: 100px; height: 100px;"></div>
+        <hr>
+        <!-- Barra de Progresso (Progressbar)-->
+        <div class="progress mb-4" style="height: 50px;">
+            <div class="progress-bar w-75 bg-danger progress-bar-striped">75%</div>
+        </div>
+        <div class="progress mb-4">
+            <div class="progress-bar w-25 bg-info">25%</div>
+            <div class="progress-bar w-25 bg-success">25%</div>
+            <div class="progress-bar w-25 bg-warning">25%</div>
+        </div>
+        <div class="progress">
+            <div class="progress-bar w-50 bg-primary progress-bar-striped progress-bar-animated">50%</div>
+        </div>
+        <hr>
+        <!-- Botões de Paginação -->
+        <ul class="pagination">
+            <li class="page-item active">
+                <a href="#" class="page-link">1</a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link">2</a>
+            </li>
+            <li class="page-item disabled">
+                <a href="#" class="page-link">3</a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link">4</a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link">5</a>
+            </li>
+        </ul>
+        <hr>
+        <ul class="pagination pagination-lg">
+            <li class="page-item active">
+                <a href="#" class="page-link">1</a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link">2</a>
+            </li>
+            <li class="page-item disabled">
+                <a href="#" class="page-link">3</a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link">4</a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link">5</a>
+            </li>
+        </ul>
+        <hr>
+        <ul class="pagination justify-content-center">
+            <li class="page-item active">
+                <a href="#" class="page-link">1</a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link">2</a>
+            </li>
+            <li class="page-item disabled">
+                <a href="#" class="page-link">3</a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link">4</a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link">5</a>
+            </li>
+        </ul>
+        <hr>
+        <ul class="pagination justify-content-end">
+            <li class="page-item active">
+                <a href="#" class="page-link">1</a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link">2</a>
+            </li>
+            <li class="page-item disabled">
+                <a href="#" class="page-link">3</a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link">4</a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link">5</a>
+            </li>
+        </ul>
+        <hr>
+        <!-- Collapse -->
+        <p>
+            <button class="btn btn-warning" data-bs-toggle="collapse" data-bs-target="#painel">Mostrar</button>
+        </p>
+        <div class="collapse" id="painel">
+            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus alias saepe quidem veniam a nisi error porro ratione, similique, facilis consequatur. Obcaecati unde beatae accusantium minima. Reprehenderit atque nihil sit beatae voluptatum perspiciatis cupiditate, vel dolorem iusto iste neque molestias quibusdam doloribus nam praesentium, excepturi repudiandae minima, fugit est perferendis optio eveniet commodi expedita. Eligendi vitae iste fugiat, quis eius sit et magnam autem impedit iusto atque libero asperiores voluptate minus harum optio rem earum ipsum error at eveniet iure. Delectus perspiciatis asperiores officiis quam ipsa doloribus voluptas iure, animi fugiat suscipit, quas reprehenderit aliquid ab ad harum dolore ut.</p>
+        </div>
+        <hr>
+        <p>
+            <button class="btn btn-danger" data-bs-toggle="collapse" data-bs-target="#painel2">Mostrar</button>
+        </p>
+        <div class="collapse collapse-horizontal" id="painel2">
+            <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit commodi, delectus beatae debitis veritatis impedit odio consequatur magni mollitia? Quidem veniam fugit dolores laborum repellat.</p>
+        </div>
+    </div>
+</body>
+</html>
